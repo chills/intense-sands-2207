@@ -1,4 +1,8 @@
 IntenseSands2207::Application.routes.draw do
+
+  get "home/index"
+
+  # match "/index" => "pages#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
